@@ -5,10 +5,33 @@
 .containerA{
     display: flex;
     flex: 1;
-    background-color: blue;
+    background-color: rgb(86, 125, 255);
 }
 
 .containerB{
     display: flex;
     flex: 3;
+    flex-direction: column;
+}
+
+.gridA{
+    display: grid;
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 50px 50px;
+}
+.girdB{
+    display: grid;
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 50px 50px;
+}
+
+.containerC{
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+}
+.containerD{
+    display: flex;
+    flex-direction: row;
+    background-color: purple;
 }
