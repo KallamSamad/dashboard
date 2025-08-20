@@ -10,7 +10,7 @@
 
 .containerB{
     display: flex;
-    flex: 3;
+    flex: 2;
     flex-direction: column;
 }
 
@@ -33,5 +33,16 @@
 .containerD{
     display: flex;
     flex-direction: row;
+    flex: 1;
     background-color: purple;
+}
+.containerE{
+    display: flex;
+    flex: 2;
+    background-color: white;
+}
+.containerF{
+    display: flex;
+    flex-direction: row;
+    background-color: green;
 }
