@@ -1,1 +1,14 @@
-dummy text
+.outer{
+    display: flex;
+    flex-direction: row;
+}
+.containerA{
+    display: flex;
+    flex: 1;
+    background-color: blue;
+}
+
+.containerB{
+    display: flex;
+    flex: 3;
+}
