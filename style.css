@@ -17,9 +17,9 @@
 
 .gridA{
     display: grid;
-    grid-template-columns: 100px 100px;
-    grid-template-rows: 100px 100px;
-    gap: 5vh;
+    grid-template-columns: 400px 100px;  
+    grid-template-rows: auto auto;      
+    margin: 5px;
 }
 .girdB{
     display: grid;
@@ -87,4 +87,18 @@ a{
 
 .smallfont{
     font-size: 12px;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+}
+
+.search-bar{
+    width: 200%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(203, 213, 218);
+    border: solid 1px white;
+    margin: 10px;
+
 }
