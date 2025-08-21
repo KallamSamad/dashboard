@@ -6,7 +6,7 @@
 }
 .containerA{
     display: flex;
-    flex: 0 0 250px;
+    flex: 0 0 100px;
     flex-direction: column;
     background-color: rgb(86, 125, 255);
     padding-left: 20px;
@@ -53,16 +53,18 @@
     flex-direction: row;
     flex: 3;
     background-color:rgb(231, 237, 240);
+    margin: 10px;
 }
 .containerE{
     display: flex;
     flex: 3;
+    margin: 10px;
     
 }
 .containerF{
     display: flex;
     flex-direction: row;
-    background-color: green;
+    background-color: white;
 }
 
 .containerA{
@@ -170,4 +172,52 @@ button{
     justify-content: space-evenly;
     border-radius: 10px;
     
+}
+.inside{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.iconparent{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 5px;
+}
+    .septext{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .sepgrid{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+h1,h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.containerF{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 30vw; 
+    gap: 10px;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.3);
+}
+
+
+.dyoverdx{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1px grey;
+    
+}
+
+p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
